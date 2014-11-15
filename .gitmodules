@@ -1,0 +1,3 @@
+[submodule "mekdotlu"]
+	path = src/mekdotlu
+	url = https://github.com/meklu/mek.lu
