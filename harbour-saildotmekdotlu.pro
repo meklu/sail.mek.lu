@@ -41,6 +41,11 @@ mekdotlu.files = $$PWD/src/mekdotlu/mekdotlu
 mekdotlu.commands = CFLAGS= make USE_CAPABILITIES=0 -C $$PWD/src/mekdotlu
 mekdotlu.path = /usr/libexec/harbour-saildotmekdotlu
 
+# qmake is stupid and will set 0644 by force
+chmodit.commands = chmod +x $(INSTALL_ROOT)/usr/libexec/harbour-saildotmekdotlu/mekdotlu
+chmodit.path = /
+chmodit.depends = mekdotlu
+
 QMAKE_EXTRA_TARGETS += mekdotlu
 PRE_TARGETDEPS += mekdotlu
-INSTALLS += mekdotlu
+INSTALLS += mekdotlu chmodit

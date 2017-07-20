@@ -8,5 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Thu Jul 20 2017 Melker Narikka <meklu@meklu.org> 0.0.1-2
+- Set the executable flag on the server binary
+
 * Sat Jul 12 2014 Melker Narikka <meklu@meklu.org> 0.0.1-1
 - Initial release

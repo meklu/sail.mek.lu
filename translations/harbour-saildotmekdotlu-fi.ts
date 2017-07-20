@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="fi" sourcelanguage="en">
+<TS version="2.1" language="fi" sourcelanguage="en">
 <context>
     <name>FirstPage</name>
     <message>
         <source>Settings</source>
-	<translation>Asetukset</translation>
+        <translation>Asetukset</translation>
     </message>
     <message>
         <source>sail.mek.lu</source>
-	<translation>sail.mek.lu</translation>
+        <translation>sail.mek.lu</translation>
     </message>
     <message>
         <source>Launch</source>
-	<translation>Käynnistä</translation>
+        <translation>Käynnistä</translation>
     </message>
     <message>
         <source>Kill</source>
-	<translation>Tapa</translation>
+        <translation>Tapa</translation>
     </message>
     <message>
         <source>Show Log</source>
-	<translation>Näytä loki</translation>
+        <translation>Näytä loki</translation>
     </message>
 </context>
 <context>
@@ -74,7 +74,7 @@
     </message>
     <message>
         <source>Starting</source>
-	<translation>Käynnistetään</translation>
+        <translation>Käynnistetään</translation>
     </message>
 </context>
 </TS>
